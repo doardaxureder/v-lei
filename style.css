@@ -1,0 +1,402 @@
+@font-face {
+    font-family: soccer;
+    src: url(fonte/SoccerLeague-Italic.ttf);
+}
+
+@font-face{
+    font-family: soccereto;
+    src: url(fonte/SoccerLeague.ttf);
+
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#25BEFF, #000) no-repeat;
+    background-attachment: fixed; /* Isso é importante para garantir que o gradiente cubra toda a página */
+}
+
+header{            
+    margin-left: 1vw;
+    display: flex;
+    flex-direction: row;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#textoemcima{
+    font-family: soccer;
+    margin-left: 2vw;
+    font-size: 2.5vw;
+    color: white;
+    text-shadow:  #000 0.2vw 0.3vw 0.2vw;
+}
+
+#qtij{
+    font-family: soccereto;
+    margin-left: 2vw;
+    font-size: 2vw;
+    color: white;
+    text-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#pedro{ /*carregar*/
+    font-family: soccereto;
+    margin-bottom: 8vw;
+    border-radius: 2vw;
+    width: 10vw;
+    height: 2.8vw;
+    background-color: #ffe483;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#xureder{
+    display: flex;  
+    margin-top: 5vw;
+    align-items: center;
+}
+
+#numJogadores{
+    font-family: soccereto;
+    border-radius: 2vw;
+    width: 10vw;
+    height: 3vw;
+    background-color: #ffe483;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+}
+
+#createfields{
+    font-family: soccereto;
+    margin-bottom: 8vw;
+    border-radius: 2vw;
+    width: 10vw;
+    height: 2.8vw;
+    background-color: #ffe483;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#players{
+    font-family: soccereto;
+    border-radius: 2vw;
+    margin-left: auto; 
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aluno-input{ /*nome do time*/
+    font-family: soccereto;
+    border-radius: 2vw;
+    width: 15vw;
+    height: 3vw;
+    background-color: #ffe483;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+}
+
+#botaopg2{
+    font-family: soccereto;
+    border-radius: 2vw;
+    width: 10vw;
+    height: 3vw;
+    background-color: #ffe483;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+}
+
+#pontos {
+    font-family: soccereto;
+    border-radius: 2vw;
+    width: 10vw;
+    height: 3vw;
+    background-color: #ffe483;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+}
+
+.partidas{
+    margin-top: 1.4vw;
+    color: white;
+    font-family: soccereto;
+    background-color: #ffe483;
+    border-radius: 1.7vw;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    font-size: 16px;
+}
+
+#outputDiv {
+    text-align: center;
+    align-items: center;
+    border-radius: 1.7vw;
+
+}
+
+select[id^="botaozinho"] {
+    font-family: 'soccereto'; /* Defina a fonte desejada */
+    border: 0.1vw solid #ffe483;
+    border-radius: 0.3vw;
+    width: 12vw;
+    height: 3vw;
+    background-color: #ffe483;
+    color: black;
+    cursor: pointer;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+/* Estilize as opções do menu suspenso (select) */
+select[id^="botaozinho"] option {
+    background-color: white;
+    color: black;
+    font-family: 'soccereto'; /* Defina a fonte desejada */
+}
+
+h2{
+    color: white;
+    font-family: soccereto;
+    text-align: center;
+    margin-top: 10vw;
+    text-shadow:  #000 0.2vw 0.3vw 0.2vw;
+}
+
+h3{
+    color: white;
+    font-family: soccereto;
+    text-align: center;
+    text-shadow:  #000 0.2vw 0.3vw 0.2vw;
+}
+
+table{
+    font-family: soccereto;
+    border-radius: 1vw;
+    width: 18vw;
+    height: auto;
+    background-color: #ffe483;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    margin-left: 5vw;
+    margin-right: auto;
+    margin-top: 0vw;
+    align-items: center;
+    text-align: center;
+}
+
+
+/*MEDIA SCREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEN*/
+@media screen and (max-width: 600px) {
+
+#textoemcima{
+    font-family: soccer;
+    margin-left: 2vw;
+    font-size: 5vw;
+    color: white;
+    text-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    margin-top: 5vw;
+}
+
+#qtij{
+margin-top: 10vw;
+
+    font-family: soccereto;
+    margin-left: 2vw;
+    font-size: 7vw;
+    color: white;
+    text-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#numJogadores{
+    font-family: soccereto;
+    border-radius: 5vw;
+    width: 35vw;
+    height: 9vw;
+    background-color: #ffe483;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vw;
+
+}
+
+#pedro{ /*carregar*/
+    font-family: soccereto;
+    margin-bottom: 8vw;
+    border-radius: 5vw;
+    width: 35vw;
+    height: 8vw;
+    background-color: #ffe483;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#createfields{
+    font-family: soccereto;
+    margin-bottom: 8vw;
+    border-radius: 5vw;
+    width: 35vw;
+    height: 8vw;
+    background-color: #ffe483;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#xureder{
+    margin-bottom: 50vw;
+}
+
+/*PAGINA 2*/
+
+#xureder{
+    margin-bottom: 10vw;
+}
+
+
+.aluno-input{ /*nome do time*/
+    font-family: soccereto;
+    border-radius: 5vw;
+    width: 35vw;
+    height: 8vw;
+    background-color: #ffe483;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+}
+
+#botaopg2{
+    font-family: soccereto;
+    border-radius: 5vw;
+    width: 35vw;
+    height: 8vw;
+    background-color: #ffe483;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+}
+
+.partidas{
+    margin-bottom: 10vw;
+    color: white;
+    font-family: soccereto;
+    background-color: #ffe483;
+    border-radius: 2.7vw;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    height: 7vw;
+    width: auto;
+}
+
+h2{
+    color: white;
+    font-family: soccereto;
+    text-align: center;
+    text-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    font-size: 20px;
+}
+
+h3{
+    color: white;
+    font-family: soccereto;
+    text-align: center;
+    text-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    font-size: 16px;
+
+}
+
+#pezinhonho {
+    margin-top: 70vw;
+    margin-bottom: auto;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+
+}
+
+
+/*PAGINA 3*/
+
+
+select[id^="botaozinho"] {
+font-family: 'soccereto'; /* Defina a fonte desejada */
+border: 0.1vw solid #ccc;
+border-radius: 0.3vw;
+width: auto;
+box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+
+height: 3vw;
+background-color: #ffe483;
+color: black;
+cursor: pointer;
+margin-right: 0.7vw;
+}
+
+/* Estilize as opções do menu suspenso (select) */
+select[id^="botaozinho"] option {
+background-color: white;
+color: black;
+box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+ 
+font-family: 'soccereto'; /* Defina a fonte desejada */
+}
+
+#teste {
+display: none; /* Oculta a imagem quando a tela é menor que 600px */
+
+}
+
+#pontos {
+    font-family: soccereto;
+    border-radius: 2vw;
+    width: 28vw;
+    height: 10vw;
+    background-color: #ffe483;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+}
+
+
+table{
+    font-family: soccereto;
+    border-radius: 1vw;
+    width: 50vw;
+    height: auto;
+    background-color: #ffe483;
+    box-shadow:  #000 0.2vw 0.3vw 0.2vw;
+    margin-left: 20vw;
+    margin-right: auto;
+    margin-top: 0vw;
+    align-items: center;
+    text-align: center;
+    }
+}
+
+
